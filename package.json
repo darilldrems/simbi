@@ -1,0 +1,30 @@
+{
+  "name": "simbi",
+  "version": "1.0.0",
+  "description": "An express middleware which logs request and response to loggly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "loggly",
+    "request",
+    "response",
+    "express",
+    "logging"
+  ],
+  "author": "Ridwan Olalere,",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.8.1",
+    "bunyan-loggly": "^1.1.0",
+    "bunyan-request": "^1.2.0",
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "supertest": "^2.0.0"
+  }
+}
