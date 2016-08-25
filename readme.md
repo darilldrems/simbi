@@ -3,7 +3,7 @@ Simbi is an express middleware for sending request object and response objects t
 
 ## Installatin
 ```
-npm install simbi
+npm install simbi --save
 ```
 
 ## Usage
