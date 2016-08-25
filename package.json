@@ -22,7 +22,7 @@
     "lodash": "^4.15.0"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "npm install mocha -g && mocha test"
   },
   "devDependencies": {
     "body-parser": "^1.15.2",
