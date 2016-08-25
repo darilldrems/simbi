@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/darilldrems/simbi.svg?branch=dev)](https://travis-ci.org/darilldrems/simbi)
+
 # Simbi
 Simbi is an express middleware for sending request object and response objects to loggly.
 

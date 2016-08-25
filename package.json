@@ -21,6 +21,9 @@
     "bunyan-request": "^1.2.0",
     "lodash": "^4.15.0"
   },
+  "scripts": {
+    "test": "mocha test"
+  },
   "devDependencies": {
     "body-parser": "^1.15.2",
     "chai": "^3.5.0",
