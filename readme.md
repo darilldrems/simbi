@@ -3,6 +3,10 @@
 # Simbi
 Simbi is an express middleware for sending request object and response objects to loggly.
 
+## Features
+- Simbi can be used outside of the request handler function
+- Simbi middleware can help automatically send request and response object to loggly
+
 ## Installatin
 ```
 npm install simbi --save
@@ -10,7 +14,7 @@ npm install simbi --save
 
 ## Usage
 ```
-var simbi = require('simbi');
+var Simbi = require('simbi');
 var express = require('express');
 
 var app = express();
@@ -21,6 +25,6 @@ var options = {
     subdomain: ""
   }
 };
-
-app.use(simbi(options));
+var simbi = Simbi(options)
+app.use(simbi.middleware());
 ```
